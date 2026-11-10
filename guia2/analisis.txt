@@ -1,0 +1,23 @@
+Preguntas del análisis:
+1. Doña Rosa insistió en sus precios amarillos. ¿Cómo resolviste el dilema y cómo se lo 
+explicarías a ella en 30 segundos?
+R: Se hizo que el estilo de los precios tengan fondo amarillo y el texto sea oscuro para que se pueda distinguir.
+
+2. ¿Qué regla de tu CSS evita que la señora Marta tenga que deslizar de lado en su celular? 
+Explica por qué funciona.
+R: Las reglas que evitan eso son max-width, el display:block porque limitan el tamaño de las imágenes y se adaptan
+a vista del celular y display:grid para que las tarjetas de los productos se alineen de manera verticial.
+
+3. ¿Qué le pasaría a Andrés si borras el bloque de :focus-visible? Pruébalo y descríbelo.
+R: Andrés que usa el teclado para navegar en lugar de un mouse, no podría ver qué lugar de la página está seleccionando 
+ya que desaparecería el contorno cuando se usa la tecla tabulador y la página sería inutilizable para él.
+
+4. Anota el puntaje de accesibilidad de Lighthouse. ¿Qué problema te señaló y cómo lo corregiste 
+(o lo corregirías)?
+R: El puntaje que dio Lighthouse es 86, los problemas que me señaló fueron: 1. La etiqueta "Agotado" no tenía suficiente contraste, 
+2. El mapa que puse no contaba con un título y las personas que usan lector de pantalla no se enterarían lo que estan seleccionando 
+y 3. El video no tenía pista de subtítulos impidiendo que una persona sorda sepa lo que se dice en el video.
+Las correciones para cada problema fueron: 
+1. Oscurecí el fondo rojo de la clase .etiqueta-agotado en el CSS para mejorar el contraste
+2. Agregué el atributo title="Mapa de ubicación de la Panadería Santa Rosa" al iframe del mapa.
+3. Para el video, como es un clip corto sin audio, no requiere subtítulos de voz.

@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Panadería Santa Rosa | Pan caliente todos los días</title>
+  <link rel="stylesheet" href="css/estilos.css">
 </head>
 
 <body bgcolor="#ECFAD4">
@@ -23,8 +24,8 @@
     <section>
       <h1>Pan caliente desde 1987</h1>
       <p>Somos una panadería familiar. Horneamos cada madrugada con recetas de tres generaciones.</p>
-      <figure>
-        <video controls width="500" height="300" preload="metadata">
+      <figure style="display: table; margin: 0 auto;">
+        <video controls preload="metadata">
           <source src="../video/horno.mp4" type="video/mp4">
           Tu navegador no soporta la reproducción de este video.
           En el video se ve panes recien salidos del horno.
@@ -41,22 +42,27 @@
         <li>Torta de chocolate: S/ 45.00 (entera)</li>
       </ul>
       <p><strong>Pedidos de tortas con 24 horas de anticipación.</strong></p>
-      <figure>
-        <img src="../img/pan-yema.jpg" alt="Canasta de panes de yema dorados recién horneados" width="400">
-        <figcaption>Pan de yema, nuestro favorito de la casa.</figcaption>
-      </figure>
-      <figure>
+      <article class="producto">
+        <img src="../img/pan-yema.jpg" alt="Canasta de panes de yema dorados recién horneados">
+        <h3>Pan de yema</h3>
+        <p><span class="precio">S/ 0.50</span> la unidad</p>
+      </article>
+      <article class="producto">
         <img src="../img/pan-frances.jpg" alt="Pan francés horneado" width="400">
-        <figcaption>Pan frances, buen desayuno.</figcaption>
-      </figure>
-      <figure>
+        <h3>Pan francés</h3>
+        <p><span class="precio">S/ 0.30</span> la unidad</p>
+      </article>
+      <article class="producto agotado">
         <img src="../img/chancay.jpg" alt="Chancay esponjoso" width="400">
-        <figcaption>Chancay, bueno para el lonche.</figcaption>
-      </figure>
-      <figure>
+        <h3>Chancay</h3>
+        <p><span class="precio">S/ 0.60</span> la unidad</p>
+        <span class="etiqueta-agotado">Agotado</span>
+      </article>
+      <article class="producto">
         <img src="../img/tortas.jpg" alt="Torta de chocolate de dos pisos decorada con fresas" width="400">
-        <figcaption>Tortas por encargo para cumpleaños.</figcaption>
-      </figure>
+        <h3>Tortas</h3>
+        <p><span class="precio">S/ 45.00</span> (entera)</p>
+      </article>
     </section>
   </main>
   <footer id="contacto">
@@ -69,11 +75,12 @@
     <div class="mapa">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62427.40876577353!2d-77.1031100660836!3d-12.
       063253884943325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c91b97b5f6ff%3A0x5032fa5860428360!2sPan%20Ate
-      lier!5e0!3m2!1ses-419!2spe!4v1794268329568!5m2!1ses-419!2spe" width="1700" height="350" style="border:0;" allowfullscreen="" 
-      loading="lazy" referrerpolicy="strict-origin-when-cross-origin">
-    </iframe>
+      lier!5e0!3m2!1ses-419!2spe!4v1794268329568!5m2!1ses-419!2spe" style="border:0;"allowfullscreen="" loading="lazy" 
+      referrerpolicy="strict-origin-when-cross-origin" title="Mapa de la ubicación de la panadería Santa Rosa en Google Maps">
+      </iframe>
     </div>
-            <a href="../../index.html">Regresar a la página principal</a>
+    <a href="../../index.html">Regresar a la página principal</a>
   </footer>
 </body>
+
 </html>

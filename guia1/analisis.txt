@@ -1,0 +1,15 @@
+1. Diego quiere que le recuerden su pedido cada semana. ¿Qué dato adicional tendrías que pedir y
+cómo justificarías ese pedido ante él?
+R: Se tendria que pedir una fecha para que se efectúe el recordatorio.
+
+2. La señora Marta usa un celular con pantalla de 5 pulgadas. ¿Qué parte de tu página podría causarle
+problemas y por qué?
+R: Podria causarle problemas la parte del mapa en el pie de la página, ya que el tamaño es muy alargado y pensado para computadoras.
+
+3. Don Julio navega con un lector de pantalla. ¿Qué escucharía al llegar a tus imágenes y a tu
+formulario?
+R: Escucharia las descripciones puestas en cada una de las imágenes y las indicaciones precisas en el formulario.
+
+4. ¿Qué decisión técnica de hoy tuvo un costo (tiempo, diseño o datos)? Explica si valió la pena
+R: Algunas de las decisiones que costaron tiempo pero valieron la pena fue poner el video corto al inicio porque añade inmersion
+y hace a la página mas amigables para el usuario, y el mapa porque añade una referencia más exacta de la ubicación de la panadería.

@@ -195,3 +195,26 @@ cursor: pointer;
 animation: none !important;
 }
 }
+/* ===== 7. Mensajes de validación (Semana 3) ===== */
+.error {
+margin: 0;
+color: #A11A1A; /* 7.4:1 sobre el fondo crema */
+font-weight: bold;
+}
+.error:empty {
+display: none; /* sin mensaje, no ocupa espacio */
+}
+.error::before {
+content: "⚠ "; /* el aviso no depende solo del color */
+}
+[aria-invalid="true"] {
+border-color: #A11A1A;
+border-width: 3px;
+}
+#estado:not(:empty) {
+padding: 0.75rem 1rem;
+border: 2px solid var(--cafe);
+border-radius: 8px;
+background: #FFFFFF;
+font-weight: bold;
+}

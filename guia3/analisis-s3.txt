@@ -1,0 +1,22 @@
+Preguntas del análisis:
+1. ¿Qué le responde Valeria al proveedor? Justifica tu decisión con al menos dos principios de la Ley
+N.° 29733 (consentimiento, finalidad, proporcionalidad, seguridad).
+R: Valeria le responde que no, porque la casilla dice explícitamente que los datos se usan estrictamente para el 
+pedido entonces la única finalidad de los datos es para coordinar la entrega de los productos. 
+
+2. ¿Agregarías la fecha de nacimiento o la casilla de publicidad a tu formulario? Si alguna se queda,
+¿cómo la implementarías para que el consentimiento sea libre y expreso?
+R: No la agregaría la fecha de nacimiento porque es un dato irrelevante para la venta, en caso de agregar alguna
+sería solo la casilla de publicidad y estaría desmarcada por defecto para que el cliente elija recibir o no publicidad.
+
+3. Reescribe un mensaje de error de tu formulario para que lo entienda don Julio. ¿Qué cambiaste y
+por qué?
+R: El mensaje de error antes era "El celular debe tener 9 dígitos y empezar con 9. Ejemplo: 987 654 321.", ahora es 
+"Escriba un número de 9 dígitos que empiece con 9. Por ejemplo: 987 654 321. (No escriba guiones ni paréntesis)" 
+Reescribi el mensaje de error para que sea más entendible y amigable para Don Julio.
+
+4. Si tu JavaScript ya valida todo, ¿por qué el servidor de la semana 6 tendrá que volver a validar los
+datos?
+R: EL servidor valida todo nuevamente porque el usuario puede desde herramientas del desarrollador desactivar el
+JavaScript y saltarse todo los mensajes de error y modificar más cosas del código. Con el servidor se garantiza que lleguen
+y se usen datos correctos y que no se modifique más datos de la propia página que burlen el negocio.

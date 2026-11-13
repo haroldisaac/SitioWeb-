@@ -1,0 +1,22 @@
+Preguntas del análisis:
+1. Clasifica las tres propuestas del asesor como transparentes o engañosas, explica por qué y propone una alternativa honesta 
+para cada una.
+R: El asesor propone un contador falso de "¡Solo quedan 2!", sumar una gaseosa a cada pedido sin preguntar y subir el precio 
+al llegar al pago. Las tres propuestas las clasifico como engañosas, no tienen nada de transparentes. La primera intenta jugar
+con la mente del cliente añadiendo presión para que compre inmediatamente; la segunda añade al pedido un producto que en ningún 
+momento se preguntó ni se sugirió y la tercera aumenta el precio final haciendo que el cliente no se entere hasta llegar al pago.
+Algunas alternativas honestas para sus propuestas: es 1. Poner el stock real del producto en el catálogo o en todo caso solo 
+agregar la etiqueta "Agotado" para que el cliente sepa, 2. Añadir un botón de sugerencia como se hizo con la mantequilla, el botón 
+preguntaría "¿Desea añadir una gaseosa?" cuando se haya añadido una torta al pedido y 3. Mostrar el precio real en todo momento y
+detallar los costos como el delivery, etc.
+
+2. ¿En qué se diferencia tu «sugerencia honesta» del reto de la gaseosa que el asesor quería sumar sin preguntar?
+R: La diferencia es que el mío sugiere añadir un producto más según lo que el cliente haya añadido, dejandole así opción a elegir,
+mientras que el del asesor solo añade el producto sin consentimiento de la persona que ordena.
+
+3. Explica con tus palabras por qué usaste textContent y no innerHTML para escribir los productos del pedido.
+R: Se uso textContent y no innerHTML para que muestre el texto tal cual es y no se ejecute algo más.
+
+4. Describe un patrón oscuro que hayas visto en una tienda en línea real y cómo lo rediseñarías.
+R: Un patrón que note es exactamente lo que el asesor de ventas sugiere, poner un contador falso haciendo hincapié en que falta poco
+para que se agote todo, incluso algunos con un temporizador para que no "desaproveches" esa oportunidad.

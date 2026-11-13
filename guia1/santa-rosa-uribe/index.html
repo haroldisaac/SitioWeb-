@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Panadería Santa Rosa | Pan caliente todos los días</title>
   <link rel="stylesheet" href="css/estilos.css">
+  <script src="js/pedido.js" defer></script>
 </head>
 
 <body bgcolor="#ECFAD4">
@@ -41,28 +42,43 @@
         <li>Chancay: S/ 0.60 la unidad</li>
         <li>Torta de chocolate: S/ 45.00 (entera)</li>
       </ul>
-      <p><strong>Pedidos de tortas con 24 horas de anticipación.</strong></p>
-      <article class="producto">
+      <p><strong>Pedidos de tortas con 24 horas de anticipación.</strong></p>      
+      <div class="catalogo">
+      <article class="producto" data-nombre="Pan de yema" data-precio="0.50">
         <img src="../img/pan-yema.jpg" alt="Canasta de panes de yema dorados recién horneados">
         <h3>Pan de yema</h3>
         <p><span class="precio">S/ 0.50</span> la unidad</p>
+        <button type="button" class="btn-anadir">Añadir</button>
       </article>
-      <article class="producto">
+      <article class="producto" data-nombre="Pan francés" data-precio="0.30">
         <img src="../img/pan-frances.jpg" alt="Pan francés horneado" width="400">
         <h3>Pan francés</h3>
         <p><span class="precio">S/ 0.30</span> la unidad</p>
+        <button type="button" class="btn-anadir">Añadir</button>
       </article>
-      <article class="producto agotado">
+      <article class="producto agotado" data-nombre="Chancay" data-precio="0.60">
         <img src="../img/chancay.jpg" alt="Chancay esponjoso" width="400">
         <h3>Chancay</h3>
         <p><span class="precio">S/ 0.60</span> la unidad</p>
         <span class="etiqueta-agotado">Agotado</span>
+        <button type="button" class="btn-anadir" disabled>Añadir</button>
       </article>
-      <article class="producto">
+      <article class="producto" data-nombre="Torta de chocolate" data-precio="45.00">
         <img src="../img/tortas.jpg" alt="Torta de chocolate de dos pisos decorada con fresas" width="400">
         <h3>Tortas</h3>
         <p><span class="precio">S/ 45.00</span> (entera)</p>
+        <button type="button" class="btn-anadir">Añadir</button>
       </article>
+    </div>
+    </section>
+    <section id="mi-pedido" aria-labelledby="titulo-pedido">
+      <h2 id="titulo-pedido" tabindex="-1">Mi pedido</h2>
+      <p id="pedido-vacio">Tu pedido está vacío. Añade productos del catálogo.</p>
+      <ul id="lista-pedido"></ul>
+      <p class="total">Total: <strong id="total">S/ 0.00</strong></p>
+      <button type="button" id="btn-sugerencia" hidden>¿Añadir mantequilla por S/ 2.50?</button>
+      <button type="button" id="btn-vaciar" hidden>Vaciar pedido</button>
+      <p id="aviso" class="solo-lector" role="status"></p>
     </section>
   </main>
   <footer id="contacto">
@@ -75,8 +91,9 @@
     <div class="mapa">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62427.40876577353!2d-77.1031100660836!3d-12.
       063253884943325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c91b97b5f6ff%3A0x5032fa5860428360!2sPan%20Ate
-      lier!5e0!3m2!1ses-419!2spe!4v1794268329568!5m2!1ses-419!2spe" style="border:0;"allowfullscreen="" loading="lazy" 
-      referrerpolicy="strict-origin-when-cross-origin" title="Mapa de la ubicación de la panadería Santa Rosa en Google Maps">
+      lier!5e0!3m2!1ses-419!2spe!4v1794268329568!5m2!1ses-419!2spe" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="strict-origin-when-cross-origin"
+        title="Mapa de la ubicación de la panadería Santa Rosa en Google Maps">
       </iframe>
     </div>
     <a href="../../index.html">Regresar a la página principal</a>

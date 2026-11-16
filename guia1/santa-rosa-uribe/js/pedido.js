@@ -7,6 +7,7 @@ const aviso = document.getElementById('aviso');
 const tituloPedido = document.getElementById('titulo-pedido');
 const btnVaciar = document.getElementById('btn-vaciar');
 const btnSugerencia = document.getElementById('btn-sugerencia');
+const btnContinuar = document.getElementById('btn-continuar');
 function soles(monto) {
 return 'S/ ' + monto.toFixed(2);
 }
@@ -48,6 +49,7 @@ lista.append(li);
 totalTexto.textContent = soles(calcularTotal());
 mensajeVacio.hidden = pedido.length > 0;
 btnVaciar.hidden = pedido.length === 0; 
+btnContinuar.hidden = pedido.length === 0;
 // Mostrar el botón de sugerencia solo si hay pan y no hay mantequilla
 const hayPan = pedido.some((item) => item.nombre.includes('Pan'));
 const tieneMantequilla = pedido.some((item) => item.nombre === 'Mantequilla');
@@ -127,4 +129,9 @@ tituloPedido.focus();
 }else{
 anunciar('Se canceló la acción. Tu pedido sigue intacto.');
 }});
+render();
+btnContinuar.addEventListener('click', () => {
+  localStorage.setItem('pedidoGuardado', JSON.stringify(pedido));
+  window.location.href = 'pedidos.html';
+});
 render();

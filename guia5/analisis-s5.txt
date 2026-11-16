@@ -1,0 +1,29 @@
+Preguntas del análisis:
+1.	Compara tu estilos.css de la Semana 2 con marca.css: ¿cuántas líneas tiene cada uno y qué te ahorró Bootstrap? ¿Qué perdiste?
+R: Me ahorró muchas líneas entre cada uno de los estilos marca.css tiene 66 líneas mientras que el estilos.css tiene 129, 
+se ahorra mucho tiempo en hacer uno y otro, pero a cambio se pierde personalización de los mismos.
+
+2.	¿Qué valor por defecto de Bootstrap tuviste que corregir y cómo comprobaste que tu corrección funcionaba?
+R: En el index-bootstrap.html tuve que corregir mucho de la parte de los source ya que no enlazaba con lo que realmente llamaba,
+Ademas modifique para que me salga el boton de continuar pedido en el carro y me lleve al formulario de pedido ahora sin la seccion de
+"Elige producto" y "Cantidad". Estuve verificando en la página con F12 y confirmando que el bootstrap sobreescriba al estilos.css
+
+3.	Quita por un momento aria-expanded y aria-label del botón del menú. ¿Qué perdería una persona que usa lector de pantalla?
+R: Si quitaramos aria-label no sabría para que el sirve el botón donde esta actualmente y sin aria-expanded no sabría si el menú 
+está abierto o cerrado.
+
+4.	Para cada uno de los tres encargos del debate, ¿usarías Bootstrap o CSS propio? Justifica con tiempo, identidad de marca, 
+peso de la página y mantenimiento.
+Para la web de la segunda tienda para el lunes usaría Bootstrap, queda poco tiempo, y bootstrap soluciona el menú movil y la grilla
+para usarlo inmediatamnete, la identidad de la marca se soluciona sobrescribiendo los colores del css anterior en el nuevo, el peso
+de la página es asumible debido a que quedan pocos días para que sea entregada y para el mantenimiento cualquier otra persona
+encargada podría modificar y actualizarla.
+Para la pastelería de lujo con diseño único, usaria un CSS propio, al ser de lujo daría mas plazo para trabajar los detalles,
+la identidad de la marca sería el punto fuerte y la razón por la cual se usa el CSS, con el CSS tenemos más libertad para poner 
+transiciones, animaciones, etc. que no se repitan en otra página, sobre el peso de la página sería más ligera ya que solo se 
+escribiría lo necesario para funcionar y sobre el mantenimiento sería mas cómodo modificar el CSS que un bootstrap.
+Para el sistema interio para los panaderos sería usar Bootstrap, permitira construir rapidamente las tablas, formularios y
+todo quedaría funcional sin necesidad de hacerlo desde 0, al ser una herramienta para el personal lo estético no seria algo
+importante solo importaría que sea entendible y clara, como se usará en dispositivos y una red fija el peso del bootstrap no
+sería problema y sería sencillo mantenerlo porque al ser bootstrap está muy estandarizado.
+
